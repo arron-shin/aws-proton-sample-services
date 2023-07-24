@@ -29,7 +29,7 @@ jobs:
     - name: Assume AWS IAM Role
       uses: aws-actions/configure-aws-credentials@v1-node16
       with:
-        aws-region: us-east-1
+        aws-region: ap-northeast-2
         role-to-assume: arn:aws:iam::021788526072:role/web-app-github-action-arron-shin-aws-proton-sample-services
 
     - name: Login to Amazon ECR
